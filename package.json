@@ -1,0 +1,24 @@
+{
+  "name": "todo-express-mongo",
+  "version": "1.0.0",
+  "description": "Todo app with nodejs, express and mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoDB"
+  ],
+  "author": "Alex <mralexx11@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
